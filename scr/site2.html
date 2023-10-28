@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/site1.css">
+    <script src="./js/2.js"></script>
+
+
+    <div class="flex__wrap">
+
+        <section class="space">
+            <img src="img/111.svg" alt="photo">
+        </section>
+
+        <section>
+            <button class="button_exit">
+                <p class="texti">Выйти из аккаунта</p>
+            </button>
+        </section>
+
+    </div>
+
+
+</head>
+<body>
+
+    <div class="flex__wrap_2">
+        <div class="flex__body">
+
+            <section>
+                <button class="button_glav" id="back">
+                    <p class="texti">Назад</p>
+                </button>
+            </section>
+
+            <section class="space_17"> 
+                <p class="text_nas"><b>Создание профиля <span class="text_y">/  Образование</span></b></p>
+            </section> 
+
+            <section class="space_17"><progress value="40" max="100"></progress></section>
+
+            <section class="text_input"> 
+                <form id="radio_who"> 
+                    <input class="purple" type="radio" id="endless" name="drone" value="endless"/>
+                    <label for="endless">Студент / выпускник</label>
+                    <input class="purple" type="radio" id="worker" name="drone" value="worker" />
+                    <label for="worker">Сотрудник</label>
+                </form> 
+            </section> 
+
+            <section> 
+                <!-- <form>  -->
+                    <label class="text_input" id="kurs" for="kurse">Курс</label> <br>
+                    <div class="flex__kurse">
+                        <button class="button_count" id="course1">
+                            <p>1</p>
+                        </button>
+                        <button class="button_count" id="course2">
+                            <p>2</p>
+                        </button>
+                        <button class="button_count" id="course3">
+                            <p>3</p>
+                        </button>
+                        <button class="button_count" id="course4">
+                            <p>4</p>
+                        </button>
+                        <button class="button_count" id="course5">
+                            <p>5</p>
+                        </button>
+                        <button class="button_count" id="course6">
+                            <p>6</p>
+                        </button>
+
+                    </div>
+                <!-- </form>  -->
+            </section>
+
+            <section class="text_input" id="not_hse"> 
+                <form> 
+                    <input class="purple" type="checkbox" id="true_end" name="scales"/>
+                    <label for="true_end">Уже окончил Вышку</label>
+                </form> 
+            </section>
+
+            <section> 
+                <form id="level_ed"> 
+                    <label class="text_input" id="lab_lev"for="step">Ступень образования</label> <br>
+                    <select class="step" name="step" id="step">
+                        <option value="">Ступень образования</option>
+                        <option value="baka">Бакалавриат</option>
+                        <option value="maga">Магистратура</option>
+                        <option value="spez">Специалитет</option>
+                        <option value="work">Работаю</option>
+                      </select>
+                </form> 
+            </section>
+
+            <section> 
+                <form id="facy_ed"> 
+                    <label class="text_input" id="lab_fac" for="facy">Факультрет</label> <br>
+                    <select class="step" name="facy" id="facy">
+                        <option value="">Факультет</option>
+                        <option value="baka">МИЭМ</option>
+                        <option value="maga">ФКН</option>
+                        <option value="spez">ВШБ</option>
+                        <option value="work">ФП</option>
+                      </select>
+                </form> 
+            </section>
+
+            <search>
+                <form action="./search/" id="program">
+                    <label class="text_input" for="movie">Образовательная программа</label> <br>
+                    <input type="search" list="movie" class="step_2" class="uk-input contact-input-datalist" placeholder="Образовательная программа">
+
+                    <datalist id="movie">
+                        <option value="Городское планирование">Городское планирование</option>
+                        <option value="Клеточная и молекулярная биотехноогия">
+                        <option value="Когнитивная нейробиология">
+                        <option value="Библеистика и история древнего Израиля">
+                        <option value="Востоковедение">
+                        <option value="Языки и литература Индии">
+                        <option value="Язык и литература Ирана">
+                        <option value="Дизайн">
+                        <option value="Мода">
+                        <option value="Информатика и вычислительная техника">
+                        <option value="Компьютерные науки и технологии">
+                        <option value="Программная инженерия">
+                        <option value="Разработка информационных систем для бизнеса">
+                        <option value="Информационная безопасность">
+                        <option value="Компьютерная безопасность">
+                        <option value="История искусств">
+                        <option value="Современное искусство">
+                        <option value="Античность">
+                        <option value="История">
+                        <option value="Культурология">
+                        <option value="Компьютерные науки и анализ данных">
+                        <option value="Компьютерные науки и технологии">
+                        <option value="Математика">
+                        <option value="Прикладная математика и информатика">
+                        <option value="Прикладной анализ данных">
+                        <option value="Международная программа по экономике и финансам">
+                        <option value="Международный бизнес">
+                        <option value="Управление бизнесом">
+                        <option value="Управление и аналитика в государственном секторе">
+                        <option value="Цифровой маркетинг">
+                        <option value="Экономика">
+                        <option value="Инфокоммуникационные технологии и системы связи">
+                        <option value="Право">
+                        <option value="Юриспруденция">
+                        <option value="Иностранные языки и межкультурная коммуникация">
+                        <option value="Филология">
+                    </datalist>
+                </form>
+            </search>
+
+            <section class="woki"> 
+                <form> 
+                    <input class="input_name" name="work" id="work" type="text" placeholder="    Работа">
+                </form> 
+            </section>
+
+        </div>
+
+        <div class="flex__body_1">
+            <section class="space_down_1">
+                <p>Так будет выглядеть твоя будущая страница</p>
+            </section>
+
+            <div class="flex__name_1">
+
+                <section class="flex__photo">
+                    <section class="photo">
+                        <img src="#" alt="">
+                    </section>
+
+                    <button class="button_contact">
+                        <p class="text_wh_2"><b>Показать контакты</b></p>
+                    </button>
+                </section>
+
+                <section class="flex__text">
+                    <p><b>Имя Фамилия</b></p>
+
+                    <section> 
+                        <form class="flex__column"> 
+                            <div class="texi_3" name="q_1" id="q_1" type="text"></div>
+                            <input class="point" name="po_1" id="po_1" type="text">
+                            <div class="texi_3" name="age" id="age" type="text"></div>
+                            <input class="point" name="po_2" id="po_2" type="text">
+                            <div class="texi_3_1" name="q_2" id="education" type="text"></div>
+                        </form> 
+                    </section>
+
+                    <section> 
+                        <form> 
+                            <div class="texi_small" name="q_3" id="q_3" type="text"></div>
+                        </form> 
+                    </section>
+
+                    <section> 
+                        <input type="checkbox" class="read-more-checker" id="read-more-checker" />
+                        <div class="limiter">
+                            <p class="texi_smaller">/ раскрываться Здесь сам контент который должен будет скрываться / раскрыватьсяЗдесь сам контент который должен будет скрываться / раскрываться</p>
+                            <div class="bottom"></div>
+                        </div>
+                        <label for="read-more-checker" class="read-more-button"></label>
+                    </section>
+
+                    <section class="flex__home_2"> 
+
+                        <form> 
+                            <input class="texi_col_2" name="q_6" id="q_6" type="text">
+                        </form> 
+                        <form> 
+                            <input class="texi_col_1" name="q_5" id="q_5" type="text">
+                            <input class="texi_col_1" name="q_5" id="q_5" type="text">
+                            <input class="texi_col_1" name="q_5" id="q_5" type="text">
+                        </form> 
+
+                    </section>
+
+                </section>
+        
+            </div>
+
+            <div class="flex__name_2">
+
+                <section class="size_ri">
+                    <p><b>Расскажи где ты учишься</b> <br> Часто студенты ищут соседей со схожими интересами</p>
+                </section>
+
+                <section class="size_le">
+                    <img src="img/222.svg" alt="photo">
+                </section>
+        
+            </div> 
+
+            <section>
+                <button class="button_conti_2"  id="conti">
+                    <p class="text_wh_1"><b>Продолжить</b></p>
+                </button>
+            </section>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="flex__down">
+            <button class="button_poch">
+                <p class="text_poch"><b>Support@homeet.com</b></p>
+            </button>
+            <button class="button_th">
+                <p class="text_TH">Техническая поддержка</p>
+            </button>
+            
+            <section class="flex__row">
+                <section class="space_d1">
+                    <p class="size_t1">О сервисе</p>
+                </section>
+                <section class="space_d3">
+                    <p class="size_t1">Контакты</p>
+                </section>
+                <section class="space_d3">
+                    <p class="size_t1">Политика конфиденциальности</p>
+                </section>
+                <section class="space_d4">
+                    <button class="button_sm" id="vk" >
+                        <img src="img/vk-vk.svg" alt="Задана ширина и высота" width="20" height="30">
+                    </button>
+                </section>
+                <section class="space_d5">
+                    <button class="button_sm" id="tg" >
+                        <img src="img/tg_1.png" alt="Задана ширина и высота" width="25" height="30">
+                    </button>
+                </section>
+            </section>
+
+            <section class="line"></section>
+
+            <section class="flex__row">
+                <section class="space_d1">
+                    <p class="textd">
+                        Предложение не является публичной офертой. <br> Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.
+                    </p>
+                </section>
+                <section class="space_d44">
+                    <p class="textd">Сделано в <b>бвср</b></p>
+                </section>
+            </section>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
